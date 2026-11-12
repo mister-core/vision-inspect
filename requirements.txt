@@ -1,0 +1,7 @@
+# 视觉检查系统依赖
+# 海康工业相机另需安装 MVS 客户端（见 README「相机接入」）
+
+numpy>=1.24
+opencv-python>=4.8
+pyserial>=3.5
+PySide6>=6.5

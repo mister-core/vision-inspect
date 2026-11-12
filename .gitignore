@@ -1,0 +1,22 @@
+# 虚拟环境
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 运行产物
+snapshots/
+*.log
+
+# 本地配置（含本机路径与相机参数）
+config.json
+
+# 海康 MVS SDK：需各人自行安装，不入库
+MvImport/
+MvCameraControl*.dll
+*.pyd
+
+# 编辑器
+.idea/
+.vscode/
+.DS_Store
